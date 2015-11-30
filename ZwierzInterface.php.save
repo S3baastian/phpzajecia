@@ -1,0 +1,9 @@
+<?php
+
+
+	interface ZwierzInterface{
+
+		public function getGatunek();
+		public function setGatunek($gatunek);                public function getGatunek();
+                public function setGatunek($gatunek);
+}
