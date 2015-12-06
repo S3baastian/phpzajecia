@@ -1,9 +1,12 @@
 <?php
 	include_once('ZabojcaInterface.php');
+	include_once('Zabojca.php');
+	
 	class Zabojca implements ZabojcaInterface{
 		
 		private $waga;
 		private $liczbaNog;
+		
 		
 		public function __construct($waga,$liczbaNog){
 			$this->waga = $waga;

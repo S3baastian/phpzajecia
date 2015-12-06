@@ -14,7 +14,7 @@ class Zwierz implements ZwierzInterface{
 		$this->umaszczenie = "szary";
 		$this->wydawanyDzwiek = "squeek";
 	}
-*/        public function Zwierz($gatunek,$plec,$umaszczenie,$wydawanyDzwiek){
+*/        public function __construct($gatunek,$plec,$umaszczenie,$wydawanyDzwiek){
 
                 $this->gatunek = $gatunek;
                 $this->plec = $plec;
